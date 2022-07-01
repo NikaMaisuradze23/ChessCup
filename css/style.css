@@ -1,0 +1,128 @@
+.purp-div {
+    position: absolute;
+    margin: 0;
+    width: 923px;
+    height: 84px;
+    background: #7025FB;
+    color: white;
+    padding: 30px 58px 30px 82px;
+}
+
+.purp-div h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.purp-div img {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 32px;
+
+}
+
+.orange-div {
+    position: absolute;
+    width: 997px;
+    height: 1280px;  
+    margin-top: 0px;
+    margin-left: 923px;
+    background: #FD5334;
+    
+
+}
+
+.orange-div h4 {
+    color: black;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    position: absolute;
+    margin: 306px 254px 947px 607px;
+    display: inline-block;
+    
+}
+
+.orange-div h3 {
+    position: absolute;
+    margin: 265px 416px 906px 85px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 109px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #FFFFFF;
+    
+}
+
+.orange-div h2 {
+    position: absolute;
+    margin: 390px 342px 781px 85px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 109px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.orange-div-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px 24px;
+    gap: 10px;
+    margin: 601px 721px 626px 85px;
+    position: absolute;
+    width: 191px;
+    height: 53px;
+    background: #212529;
+    border-radius: 8px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.orange-div-button img {
+    position: absolute;
+    margin-left: 120px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.orange-div-button p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 13px 60px 13px 24px;
+}
+
+.footer-div{
+    position: absolute;
+    width: 923px;
+    height: 1196px;
+    left: 0px;
+    top: 84px;
+    
+
+}
