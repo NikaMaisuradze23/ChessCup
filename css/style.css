@@ -1,3 +1,4 @@
+/* main page start */
 .purp-div {
     position: absolute;
     margin: 0;
@@ -124,5 +125,386 @@
     left: 0px;
     top: 84px;
     
+}
+/* main page end */
 
+
+/* person inofrmation page start */
+.person-h4 {
+    position: absolute;
+    width: 215px;
+    height: 24px;
+    left: 971px;
+    top: 30px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    
+
+    text-transform: capitalize;
+
+    color: #212529;
+}
+
+
+.person-line {
+    position: absolute;
+    width: 999px;
+    height: 0px;
+    left: 923px;
+    top: 84px;
+
+    border: 1px solid rgba(185, 180, 196, 0.3);
+}
+
+
+.person-steps {
+    position: absolute;
+    width: 366px;
+    height: 65px;
+    margin: 144px 583px 1071px 1000px;
+}
+
+.persons-step-1 {
+    width: 40px;
+    height: 40px;
+    padding: 5px 0;
+    background: #FFFFFF;
+    border: 1px solid #E5E6E8;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+color: #212529;
+}
+
+.persons-step-line {
+    width: 174px;
+    height: 0px;
+
+    border: 1px solid rgba(185, 180, 196, 0.3);
+    display: inline-block;
+    vertical-align: middle;
+    
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.persons-step-2 {
+    width: 40px;
+    height: 40px;
+    padding: 5px 0;
+    background: #F5F5F5;
+    border: 1px solid #E5E6E8;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #95939A;
+}
+
+.person-steps-p1 {
+    position: absolute;
+    width: 158px;
+    height: 24px;
+    margin: 5px 791px 0px -50px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    vertical-align: middle;
+    display: inline-block;
+
+
+    color: #000000;
+}
+
+.person-steps-p2 {
+    position: absolute;
+    width: 158px;
+    height: 24px;
+    margin: 5px 583px 0px 180px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    vertical-align: middle;
+    display: inline-block;
+    
+
+    color: #000000;
+
+}
+
+
+.person-title {
+    position: absolute;
+    width: 328px;
+    height: 48px;
+    margin: 324px 621px 908px 950px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */   
+   
+    color: #000000;
+
+}
+
+.person-title-p {
+    position: absolute;
+    width: 205px;
+    height: 21px;
+    margin: 375px 744px 884px 950px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    
+    text-transform: capitalize;
+    
+    color: #95939A;
+    
+}
+
+
+.person-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 775px;
+    height: 304px;
+    left: 971px;
+    top: 481px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+
+    /* Gray/900 */
+
+    color: #212529;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+}
+
+
+.person-inputs input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 743px;
+    height: 30px;
+    border: none;
+    /* HitBox */
+
+    background: rgba(255, 255, 255, 1e-06);
+
+    /* Inside auto layout */
+    box-shadow: 2px 2px #efefef;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+
+::placeholder {
+    color: black;
+    opacity: 1;
+  }
+
+
+.person-inputs input:hover {
+    background-color: #e9ecef;
+    
+
+}
+
+.input-buton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px 24px;
+    gap: 10px;
+    margin-left: 650px;
+    position: absolute;
+    width: 128px;
+    height: 53px;
+    vertical-align: middle;
+    background: #212529;
+    border-radius: 8px;
+}
+
+.input-buton span {
+    
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+    text-align: center;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.input-buton img {
+    position: absolute;
+    margin-left:60px;
+    margin-top: 3px;
+    display: inline-block;
+    
+}
+
+
+.back-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px 24px;
+    gap: 10px;
+    vertical-align: middle;
+    position: absolute;
+    width: 93px;
+    height: 53px;
+    
+
+    border: 1px solid #212529;
+    border-radius: 8px;
+}
+
+.back-button span {
+    width: 45px;
+    height: 27px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+.person-footer {
+    background-image: url('../img/unsplash_27LH_0jXKYI.png');
+    position: absolute;
+    width: 923px;
+    height: 1196px;
+    left: 0px;
+    top: 84px;
+
+    
+}
+
+.footer-p1 {
+    position: absolute;
+    width: 423px;
+    height: 83px;
+    margin-left: 132px;
+    margin-top: 251px;
+
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 35px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #212529;
+}
+
+.footer-p2 {
+    position: absolute;
+    width: 222px;
+    height: 33px;
+    margin-left: 132px;
+    margin-top: 340px;
+
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #E5E6E8;
 }
