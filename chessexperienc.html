@@ -15,10 +15,9 @@
             <h1>Redberry Knight Cup</h1>
         </div>
     </header>
-
     <section class="fix-section">
-        <div class="person-h4">
-            <h4>Start creating your account</h4>
+        <div class="person-div-h4">
+            <h4 class="person-h4">First step is done, continue to finish onboarding</h4>
         </div>
 
         <div class="person-line">
@@ -35,18 +34,23 @@
             <p class="person-steps-p2">Chess experience</p>
         </div>
 
-        <h1 class="person-title">Personal information </h1>
+        <h1 class="person-title">Chess experience </h1>
         <p  class="person-title-p" >This is basic informaton fields</p>
 
 
         <div class="person-inputs">
             <form>
-                <input type="text" id="fname" name="fname" placeholder="Name" required><br><br>
-                <input id="Email" name="Email" type="email" placeholder="Email"required pattern="^[a-zA-Z0-9._%+-]+@(?!redberry.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$" oninvalid="setCustomValidity('Please enter business email')" onchange="try{setCustomValidity('')}catch(e){}"><br><br>
-                <input type="number" id="number" name="number" placeholder="Phone Number" required><br><br>
-                <input  id="date" name="date" placeholder="Date of birth" onfocus="(this.type='date')" onblur="(this.type='text')" required><br><br>
-                <button id="back" type="button" name="back" class="back-button" onclick="location.href='index.html'"><span>Back</span></button>
-                <button type="submit" id="submit" name="submit" class="input-buton"><span >Next</span><img src="img/Next.svg"></button>
+                <select class="slection-exp1" id="country" name="country" placeholder="level of knowledge">
+                    <option value="au">Beginner</option>
+                    <option value="ca">Intermediate</option>
+                    <option value="usa">Professional</option>
+                </select>
+
+                <select class="slection-exp2" id="country" name="country" placeholder="level of knowledge">
+                    <option value="au">Beginner</option>
+                    <option value="ca">Intermediate</option>
+                    <option value="usa">Professional</option>
+                </select>
                 
             </form>
             
@@ -56,24 +60,22 @@
 
 
 
-
-
-
-
     <footer>
-        <div class="person-footer">
+        <div class="chess-footer">
             <div>
-                <p class="footer-p1">“When you see a good move,
-                    look for a better one.”
+                <p class="chess-p1">“Many have become chess masters; 
+                    no one has become the master of chess.”
                 </p>
 
-                <p class="footer-p2">-Emanuel Lasker</p>
+                <p class="chess-p2">- Siegbert Tarrasch</p>
 
             </div>
             
             
         </div>
     </footer>
+
+
     <script src="js/app.js"></script>
 </body>
 </html>
