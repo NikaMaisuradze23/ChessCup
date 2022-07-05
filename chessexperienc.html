@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    
     <link rel="stylesheet" href="css/style.css">
     <title>Chess</title>
 </head>
@@ -51,6 +52,21 @@
                     <option value="ca">Intermediate</option>
                     <option value="usa">Professional</option>
                 </select>
+
+                <div class="radio-input">
+                    <p>Have you participated in the Redberry Championship?<span style="color:red">*</span> </p>
+                    <input class="radio-btons1" type="radio" id="yes1" name="age" value="Yes">
+                
+                    <label class="radio-input-inputs1" for="yes1">Yes</label>
+                    <input class="radio-btons2" type="radio" id="no2" name="age" value="No">
+
+                    <label class="radio-input-inputs2" for="no">No</label> 
+                </div>
+
+                <button   id="back" type="button" name="back" class="chess-ex-back" onclick="location.href='personinfo.html'"><span>Back</span></button>
+                <button  type="submit" id="submit" name="submit" class="chess-ex-next" onclick="location.href='result.html'"><span >Next</span><img src="img/Next.svg"></button>
+                  
+
                 
             </form>
             

@@ -41,12 +41,12 @@
 
         <div class="person-inputs">
             <form>
-                <input type="text" id="fname" name="fname" placeholder="Name" required><br><br>
-                <input id="Email" name="Email" type="email" placeholder="Email"required pattern="^[a-zA-Z0-9._%+-]+@(?!redberry.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$" oninvalid="setCustomValidity('Please enter business email')" onchange="try{setCustomValidity('')}catch(e){}"><br><br>
-                <input type="number" id="number" name="number" placeholder="Phone Number" required><br><br>
-                <input  id="date" name="date" placeholder="Date of birth" onfocus="(this.type='date')" onblur="(this.type='text')" required><br><br>
-                <button id="back" type="button" name="back" class="back-button" onclick="location.href='index.html'"><span>Back</span></button>
-                <button type="submit" id="submit" name="submit" class="input-buton"><span >Next</span><img src="img/Next.svg"></button>
+                <input  class="person-inputs-input" type="text" id="fname" name="fname" placeholder="Name" required><br><br>
+                <input class="person-inputs-input" id="Email" name="Email" type="email" placeholder="Email"required pattern="^[a-zA-Z0-9._%+-]+@(?!redberry.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$" oninvalid="setCustomValidity('Please enter business email')" onchange="try{setCustomValidity('')}catch(e){}"><br><br>
+                <input class="person-inputs-input" type="number" id="number" name="number" placeholder="Phone Number" required><br><br>
+                <input class="person-inputs-input" id="date" name="date" placeholder="Date of birth" onfocus="(this.type='date')" onblur="(this.type='text')" required><br><br>
+                <button   id="back" type="button" name="back" class="back-button" onclick="location.href='index.html'"><span>Back</span></button>
+                <button  type="submit" id="submit" name="submit" class="input-buton" onclick="location.href='chessexperienc.html'"><span >Next</span><img src="img/Next.svg"></button>
                 
             </form>
             

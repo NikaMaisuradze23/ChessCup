@@ -101,7 +101,7 @@
     text-transform: capitalize;
 
     color: #FFFFFF;
-
+    cursor: pointer;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -325,9 +325,8 @@ color: #212529;
     padding: 0px;
     gap: 40px;
 
-    position: absolute;
-    width: 775px;
-    height: 304px;
+    position: relative;
+    
     left: 971px;
     top: 481px;
     font-family: 'Open Sans';
@@ -354,7 +353,7 @@ color: #212529;
 }
 
 
-.person-inputs input {
+.person-inputs-input {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -363,7 +362,7 @@ color: #212529;
     height: 30px;
     border: none;
     /* HitBox */
-
+    cursor: pointer;
     background: rgba(255, 255, 255, 1e-06);
 
     /* Inside auto layout */
@@ -401,6 +400,7 @@ color: #212529;
     vertical-align: middle;
     background: #212529;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .input-buton span {
@@ -445,7 +445,7 @@ color: #212529;
     position: absolute;
     width: 93px;
     height: 53px;
-    
+    cursor: pointer;
 
     border: 1px solid #212529;
     border-radius: 8px;
@@ -580,10 +580,13 @@ color: #212529;
     height: 30px;
     margin-left: -5px;
     top: 8px;
-
+    border: none;
     /* HitBox */
-
+    cursor: pointer;
     background: rgba(255, 255, 255, 1e-06);
+
+    /* Inside auto layout */
+    box-shadow: 2px 2px #efefef;
 }
 
 .slection-exp2 {
@@ -599,8 +602,188 @@ color: #212529;
     height: 30px;
     margin-left: 400px;
     margin-top: 8px;
-
+    border: none;
     /* HitBox */
-
+    cursor: pointer;
     background: rgba(255, 255, 255, 1e-06);
+
+    /* Inside auto layout */
+    box-shadow: 2px 2px #efefef;
 }
+
+.radio-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8px 16px;
+
+    position: absolute;
+    width: 775px;
+    height: 46px;
+    margin-left: -20px;
+    margin-top: 100px;
+
+    /* Gray/White */
+
+    background: #FFFFFF;
+    border-radius: 4px;
+
+}
+
+.radio-input-inputs1 {
+    vertical-align: middle; 
+    display: inline;
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+
+.radio-btons1 {
+    display: inline;
+    position:absolute;
+    margin-top: 100px;
+    vertical-align: middle; 
+    cursor: pointer;
+    
+
+}
+
+
+.radio-btons2 {
+    display: inline;
+    position:absolute;
+    margin-top: 100px;
+    vertical-align: middle; 
+    margin-left: 85px;
+    cursor: pointer;
+
+}
+
+.radio-input-inputs2 {
+    display: inline;
+    position:absolute;
+    margin-top: 100px;
+    vertical-align: middle; 
+    margin-left: 100px;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+/* .person-inputs:hover radio-input-inputs1 ~ .checkmark {
+    background-color: #ccc;
+}
+
+.person-inputs:checked radio-input-inputs1 ~ .checkmark {
+    background-color: #2196F3;
+    
+}
+.person-inputs:checked radio-input-inputs1 ~ .checkmark::after {
+    top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+    
+} */
+
+
+.chess-ex-next{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px 24px;
+    gap: 10px;
+    margin-left: 650px;
+    margin-top: 350px; 
+    position: absolute;
+    width: 128px;
+    height: 53px;
+    vertical-align: middle;
+    background: #212529;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.chess-ex-next span {
+    
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+    text-align: center;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.chess-ex-next img {
+    position: absolute;
+    margin-left:60px;
+    margin-top: 3px;
+    display: inline-block;
+    
+}
+
+
+.chess-ex-back {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px 24px;
+    gap: 10px;
+    vertical-align: middle;
+    position: absolute;
+    width: 93px;
+    height: 53px;
+    cursor: pointer;
+    margin-top: 350px; 
+
+    border: 1px solid #212529;
+    border-radius: 8px;
+}
+
+.chess-ex-back span {
+    width: 45px;
+    height: 27px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
