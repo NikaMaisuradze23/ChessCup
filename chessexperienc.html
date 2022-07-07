@@ -27,9 +27,9 @@
 
         <div class="person-steps">
             <div>
-                <div class="persons-step-1">1</div>
+                <div class="persons-step-1 exper-step1"><img src="img/Vectorgreen.svg"></div>
                 <div class="persons-step-line"></div>
-                <div class="persons-step-2">2</div>
+                <div class="exper-step2">2</div>
             </div>
             <p class="person-steps-p1">Personal information</p>
             <p class="person-steps-p2">Chess experience</p>
@@ -42,15 +42,18 @@
         <div class="person-inputs">
             <form>
                 <select class="slection-exp1" id="country" name="country" placeholder="level of knowledge">
-                    <option value="au">Beginner</option>
-                    <option value="ca">Intermediate</option>
-                    <option value="usa">Professional</option>
+                    <option value="" disabled selected>level of knowledge <span style="color:red">*</span></option>
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Professional">Professional</option>
                 </select>
 
-                <select class="slection-exp2" id="country" name="country" placeholder="level of knowledge">
-                    <option value="au">Beginner</option>
-                    <option value="ca">Intermediate</option>
-                    <option value="usa">Professional</option>
+                <select  class="slection-exp2" id="country" name="country" placeholder="level of knowledge">
+                    <option value="" disabled selected>Choose your character<span style="color:red">*</span></option>
+                    <option id="opimg"  value="Magnus Carlsen">Magnus Carlsen </option>
+                    <option value="Wilhelm Steinitz">Wilhelm Steinitz</option>
+                    <option value="Bobby Fischer">Bobby Fischer</option>
+                    <option value="Bobby Fischer">Bobby Fischer</option>
                 </select>
 
                 <div class="radio-input">

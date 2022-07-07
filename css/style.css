@@ -575,6 +575,12 @@ color: #212529;
     display: inline-block;
     vertical-align: middle;
 
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
     position: absolute;
     width: 312px;
     height: 30px;
@@ -596,6 +602,12 @@ color: #212529;
     padding: 0px;
     display: inline-block;
     vertical-align: middle;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
 
     position: absolute;
     width: 312px;
@@ -785,5 +797,45 @@ color: #212529;
     flex-grow: 0;
 }
 
+.exper-step1 {
+    background: #E9FAF1;
+}
+
+
+
+.exper-step2 {
+    width: 40px;
+    height: 40px;
+    padding: 5px 0;
+    background: #FFFFFF;
+    border: 1px solid #E5E6E8;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.opimg {
+    width: 100px;
+    height: 72px;
+
+    background: url('../img/Rectangle/ 6.png');
+    border-radius: 4px;
+
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
 
 
